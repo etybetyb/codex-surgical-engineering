@@ -1,0 +1,6 @@
+interface:
+  display_name: "Surgical Engineering"
+  short_description: "Minimal, scope-safe code changes with verification evidence"
+  default_prompt: "Use $codex-surgical-engineering to make this repository change with the smallest coherent patch and report exact verification evidence."
+policy:
+  allow_implicit_invocation: true
